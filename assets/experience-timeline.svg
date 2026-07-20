@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0e14"/>
+      <stop offset="100%" stop-color="#131a24"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a8aff"/>
+      <stop offset="100%" stop-color="#94b8ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="20"/>
+
+  <!-- Title -->
+  <text x="40" y="50" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#eef2f8" letter-spacing="1">⏳ My Journey</text>
+  <line x1="40" y1="65" x2="760" y2="65" stroke="#2a3344" stroke-width="1"/>
+
+  <!-- Timeline entries -->
+  <g font-family="Inter, sans-serif">
+    <!-- 2022 -->
+    <circle cx="60" cy="130" r="8" fill="url(#highlight)" filter="url(#glow)"/>
+    <line x1="60" y1="130" x2="60" y2="220" stroke="#2a3344" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="90" y="125" font-size="14" font-weight="700" fill="#5a8aff">2022</text>
+    <text x="90" y="148" font-size="18" font-weight="600" fill="#eef4ff">B.Tech AI &amp; Data Science</text>
+    <text x="90" y="172" font-size="14" fill="#8aa3cc">Started my journey in AI &amp; Data Science</text>
+
+    <!-- 2023 -->
+    <circle cx="60" cy="230" r="8" fill="url(#highlight)" filter="url(#glow)"/>
+    <line x1="60" y1="230" x2="60" y2="320" stroke="#2a3344" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="90" y="225" font-size="14" font-weight="700" fill="#5a8aff">2023</text>
+    <text x="90" y="248" font-size="18" font-weight="600" fill="#eef4ff">Python &amp; ML Foundations</text>
+    <text x="90" y="272" font-size="14" fill="#8aa3cc">Mastered Python, Math for ML, built first models</text>
+
+    <!-- 2024 -->
+    <circle cx="60" cy="330" r="8" fill="url(#highlight)" filter="url(#glow)"/>
+    <line x1="60" y1="330" x2="60" y2="420" stroke="#2a3344" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="90" y="325" font-size="14" font-weight="700" fill="#5a8aff">2024</text>
+    <text x="90" y="348" font-size="18" font-weight="600" fill="#eef4ff">Deep Learning &amp; Computer Vision</text>
+    <text x="90" y="372" font-size="14" fill="#8aa3cc">TensorFlow, PyTorch, OpenCV – built CV prototypes</text>
+
+    <!-- 2025 -->
+    <circle cx="60" cy="430" r="8" fill="url(#highlight)" filter="url(#glow)"/>
+    <line x1="60" y1="430" x2="60" y2="520" stroke="#2a3344" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="90" y="425" font-size="14" font-weight="700" fill="#5a8aff">2025</text>
+    <text x="90" y="448" font-size="18" font-weight="600" fill="#eef4ff">AI Project Builder</text>
+    <text x="90" y="472" font-size="14" fill="#8aa3cc">Image Colorization, SignBridge AI, Face Attendance</text>
+
+    <!-- 2026 -->
+    <circle cx="60" cy="530" r="8" fill="url(#highlight)" filter="url(#glow)"/>
+    <text x="90" y="525" font-size="14" font-weight="700" fill="#5a8aff">2026</text>
+    <text x="90" y="548" font-size="18" font-weight="600" fill="#eef4ff">AI/ML Engineer</text>
+    <text x="90" y="572" font-size="14" fill="#8aa3cc">Goal: Build scalable, real-world AI solutions</text>
+  </g>
+
+  <!-- Decorative dots -->
+  <circle cx="750" cy="50" r="4" fill="#2a3344" opacity="0.6"/>
+  <circle cx="720" cy="30" r="2" fill="#2a3344" opacity="0.6"/>
+  <circle cx="770" cy="80" r="3" fill="#2a3344" opacity="0.4"/>
+</svg>
