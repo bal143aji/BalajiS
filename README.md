@@ -64,15 +64,6 @@
 </p>
 
 ---
-
-## 💼 Journey
-
-<p align="center">
-  <img src="./assets/experience-timeline.svg" alt="Experience" width="100%">
-</p>
-
----
-
 ## 🎓 Education & Certifications
 
 ### 🎓 Education
@@ -92,7 +83,6 @@
 - Deep Learning
 - Computer Vision
 - Generative AI
-- LangChain
 - OpenAI API
 - Streamlit
 - Data Structures & Algorithms
@@ -113,11 +103,6 @@
 
 ## 📈 GitHub Analytics
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=bal143aji&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bal143aji&layout=compact&theme=tokyonight&hide_border=true"/>
-</div>
-
 <br>
 
 <div align="center">
@@ -131,23 +116,6 @@
 </div>
 
 ---
-
-## 🏆 Achievements
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bal143aji&theme=tokyonight&no-frame=true&row=1&column=6"/>
-</div>
-
----
-
-## 🧊 3D Contribution Graph
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-season-animate.svg" width="100%">
-</div>
-
----
-
 ## 🐍 Contribution Snake
 
 <div align="center">
