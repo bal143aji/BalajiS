@@ -47,17 +47,17 @@
 
 ## 🖥️ Who Am I
 
-<div align="center">
-  <img src="./assets/whoami-ironman.svg" width="100%" alt="Who Am I">
-</div>
+<p align="center">
+  <img src="./assets/whoami-ironman.svg" alt="Who Am I" width="100%">
+</p>
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-  <img src="./assets/techstack-thor.svg" width="100%" alt="Tech Stack">
-</div>
+<p align="center">
+  <img src="./assets/techstack-thor.svg" alt="Tech Stack" width="100%">
+</p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,sklearn,git,github,vscode,mysql,html,css,streamlit" />
@@ -67,9 +67,9 @@
 
 ## 💼 Journey
 
-<div align="center">
-  <img src="./assets/experience-timeline.svg" width="100%" alt="Experience">
-</div>
+<p align="center">
+  <img src="./assets/experience-timeline.svg" alt="Experience" width="100%">
+</p>
 
 ---
 
