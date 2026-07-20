@@ -54,11 +54,6 @@
 ---
 
 ## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="./assets/techstack-thor.svg" alt="Tech Stack" width="100%">
-</p>
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,sklearn,git,github,vscode,mysql,html,css,streamlit" />
 </p>
